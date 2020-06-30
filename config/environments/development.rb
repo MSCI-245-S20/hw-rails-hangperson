@@ -22,4 +22,8 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+    
+  # give access on Codio to my host, each student needs to change
+  config.hosts << "bread-elastic-3000.codio.io"    
+    
 end
